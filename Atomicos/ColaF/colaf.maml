@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> cola@Cola_F </components>
+    <out> oS oN listo oFul oEnHora </out>
+    <in> iInic iVehic </in>
+    <Link> iInic in_inicio@cola </Link>
+    <Link> iVehic in_vehic@cola </Link>
+    <Link> out_lado_S@cola oS </Link>
+    <Link> out_lado_N@cola oN </Link>
+    <Link> out_listo@cola listo </Link>
+    <Link> out_Full@cola oFul </Link>
+    <Link> out_enHoraSalida@cola oEnHora </Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

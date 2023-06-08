@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> capitan@Barco marinero@Cola_F </components>
+    <out> out_as out_an out_cs out_cn </out>
+    <out> out_hss out_hsn </out>
+    <in> in_br in_cl </in>
+    <Link> in_cl in_vehic@marinero </Link>
+    <Link> in_br in_permiso@capitan </Link>
+    <Link> out_listo@marinero in_listo@capitan </Link>
+    <Link> out_Full@marinero in_capComp@capitan </Link>
+    <Link> out_enHoraSalida@marinero in_horario@capitan </Link>
+    <Link> out_descargar@capitan in_inicio@marinero </Link>
+    <Link> out_arribo_N@capitan out_an </Link>
+    <Link> out_arribo_S@capitan out_as </Link>
+    <Link> out_cargar_S@capitan out_cs </Link>
+    <Link> out_cargar_N@capitan out_cn </Link>
+    <Link> out_horaSalida_S@capitan out_hss </Link>
+    <Link> out_horaSalida_N@capitan out_hsn </Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

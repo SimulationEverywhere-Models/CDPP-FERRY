@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> cola@Cola </components>
+    <out> ferry perf </out>
+    <in> vehic solic parar </in>
+    <Link> solic in_solic@cola </Link>
+    <Link> vehic in_vehic@cola </Link>
+    <Link> parar in_parar@cola </Link>
+    <Link> out_ferry@cola ferry </Link>
+    <Link> out_perf@cola perf </Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

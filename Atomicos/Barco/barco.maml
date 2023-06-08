@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> capitan@Barco </components>
+    <out> oArribo_S oArribo_N oCargar oDescargar oHoraSalida </out>
+    <in> iHorario iPermiso iListo iCapComp </in>
+    <Link> iHorario in_horario@capitan </Link>
+    <Link> iPermiso in_permiso@capitan </Link>
+    <Link> iListo in_listo@capitan </Link>
+    <Link> iCapComp in_capComp@capitan </Link>
+    <Link> out_arribo_N@capitan oArribo_N </Link>
+    <Link> out_arribo_S@capitan oArribo_S </Link>
+    <Link> out_cargar@capitan oCargar </Link>
+    <Link> out_descargar@capitan oDescargar </Link>
+    <Link> out_horaSalida@capitan oHoraSalida </Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

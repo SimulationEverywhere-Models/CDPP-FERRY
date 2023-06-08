@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> perf@Monitor </components>
+    <out> oTsys oCPS oCPN oTPES oTPEN </out>
+    <in> iSysS iSysN iCS iCN idatos </in>
+    <Link> iSysS in_SalidaSys_S@perf </Link>
+    <Link> iSysN in_SalidaSys_N@perf </Link>
+    <Link> iCS in_CPS@perf </Link>
+    <Link> iCN in_CPN@perf </Link>
+    <Link> idatos in_datos@perf </Link>
+    <Link> out_tsys@perf oTsys </Link>
+    <Link> out_CPS@perf oCPS </Link>
+    <Link> out_CPN@perf oCPN </Link>
+    <Link> out_TPES@perf oTPES </Link>
+    <Link> out_TPEN@perf oTPEN </Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

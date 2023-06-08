@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> agente@Banderillero </components>
+    <out> descargar solic parar </out>
+    <in> ferry pedido cerrarPaso </in>
+    <Link> ferry in_ferry@agente </Link>
+    <Link> pedido in_solic@agente </Link>
+    <Link> cerrarPaso in_cerrarPaso@agente </Link>
+    <Link> out_descargar@agente descargar </Link>
+    <Link> out_solic@agente solic </Link>
+    <Link> out_parar@agente parar </Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

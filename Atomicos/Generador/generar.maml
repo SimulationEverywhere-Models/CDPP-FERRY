@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> gen@Generador </components>
+    <out> out </out>
+    <Link> out_vehic@gen out </Link>
+  </top>
+  <gen>
+    <distribution> exponential </distribution>
+    <mean> 5 </mean>
+  </gen>
+</CDPlusPlus_Builder_Version_1.0.0>
